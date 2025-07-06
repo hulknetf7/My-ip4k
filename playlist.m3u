@@ -12,3 +12,43 @@ https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/o
 
 
 https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1751740976~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~data=hdntl~hmac=2a4421b112727a01ef985deb5c255493236a1e049727fc6bacf044fca98bc880/manifest.mpd?|User-Agent=CJ&drmScheme=clearkey&drmLicense=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
+
+
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <link rel="icon" href="https://i.postimg.cc/hvvtSwCV/Astro-Cricket.png" type="image/gif" sizes="16x16">  
+  <meta charset="UTF-8">  
+  <title>Astro Cricket Live</title>  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>  
+  <style>   
+    body { margin: 0px; }   
+    .jwplayer { position: absolute !important; }   
+    .jwplayer.jw-flag-aspect-mode { min-height: 100%; max-height: 100%; }
+  </style>  
+</head>  
+<body>  
+  <div id="jwplayerDiv"></div>  
+  <script type="text/javascript">    
+    jwplayer("jwplayerDiv").setup({    
+      file: "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/hdntl=exp=1751567530~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~data=hdntl~hmac=866917dd18b2447b2983ac9754556659fa7dcc5f5e9e5bdc20bb8aa32b4c5598/manifest.mpd",    
+      type: "dash",    
+      drm: { 
+        "clearkey": {    
+          "keyId": "ae7076b647133606b704d33e4cef5134",    
+          "key": "810251515584cf71216d9a2d1ebf04bb"    
+        }    
+      },
+      logo: {
+        file: "https://i.postimg.cc/gkH5CQMv/0000.png",
+        link: "https://t.me/"
+      },
+      width: "100%",
+      aspectratio: "16:9",
+      autostart: true
+    });    
+  </script>  
+</body>  
+</html>
